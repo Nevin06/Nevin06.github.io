@@ -1,0 +1,28 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "My personal portfolio website showcasing my work and skills.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "'https://github.com/Nevin06/Nevin06.github.io'"
+  },
+  "keywords": [
+    "\"portfolio\"",
+    "\"website\"",
+    "\"developer\"",
+    "\"projects\"",
+    "\"skills\""
+  ],
+  "author": "Thomas Nevin K",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "node-fetch": "^3.3.1"
+  }
+}
