@@ -339,7 +339,7 @@
     // var ssContactForm = function() {
 
     //     /* local validation */
-	//     $('#contactForm').validate({
+    //     $('#contactForm').validate({
         
     //         /* submit via ajax */
     //         submitHandler: function(form) {
