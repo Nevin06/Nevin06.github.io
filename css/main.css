@@ -4155,3 +4155,59 @@ article.blog-single .blog-content {
     border-radius: 10%;
     box-shadow: 10px 10px 5px 0 black;
  }
+
+.zone {
+    cursor:pointer;
+    border-radius:4px;
+    transition: all 0.3s linear;
+    color: black;
+}
+
+.zone:hover {
+    -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
+
+
+/*https://paulund.co.uk/how-to-create-shiny-css-buttons*/
+/***********************************************************************
+ *  Grey Background
+ **********************************************************************/
+.grey{
+    background: #ff9999; /* Old browsers */
+    background: -moz-linear-gradient(top, #ff9999 0%, #c5c5c5 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff9999), color-stop(100%,#c5c5c5)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #ff9999 0%,#c5c5c5 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #ff9999 0%,#c5c5c5 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #ff9999 0%,#c5c5c5 100%); /* IE10+ */
+    background: linear-gradient(top, #ff9999 0%,#c5c5c5 100%); /* W3C */
+}
+
+/***********************************************************************
+ *  Red Background
+ **********************************************************************/
+.red{
+    background: #c5c5c5; /* Old browsers */
+    background: -moz-linear-gradient(top, #c5c5c5 0%, #ff9999 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#c5c5c5), color-stop(100%,#ff9999)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, #c5c5c5 0%,#ff9999 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, #c5c5c5 0%,#ff9999 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, #c5c5c5 0%,#ff9999 100%); /* IE10+ */
+    background: linear-gradient(top, #c5c5c5 0%,#ff9999 100%); /* W3C */
+}
+
+div.rotate_right {
+  float: left;
+  -ms-transform: rotate(7deg); /* IE 9 */
+  -webkit-transform: rotate(7deg); /* Safari */
+  transform: rotate(7deg);
+}
+
+div.rotate_left {
+  float: left;
+  -ms-transform: rotate(-8deg); /* IE 9 */
+  -webkit-transform: rotate(-8deg); /* Safari */
+  transform: rotate(-8deg);
+}
