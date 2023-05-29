@@ -58,7 +58,7 @@
 
    <!-- home
    ================================================== -->
-   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="/images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center style="background: url(/images/hero-3-bg.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
+   <section id="home" class="s-home page-hero target-section" data-parallax="scroll" data-image-src="/images/hero-3-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center style="background: url(/images/hero-3-bg.jpg) no-repeat center center fixed; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover;">
 
         <div class="overlay"></div>
         <div class="shadow-overlay"></div>
@@ -269,7 +269,6 @@
                                 <li>Needed the mind space to rediscover myself</li>
                                 <li>Travelled to Dublin, Ireland between September 2022 - November 2022</li>
                                 <li>Felt I needed to change something professionally</li>
-                                <li>PS: Thanks for reading thus far.</li>
                             </ul>
                         </div>
                     </div> <!-- end timeline__block -->
@@ -621,7 +620,7 @@
                         <div class="item-folio__thumb">
                             <a href="" class="thumb-link" data-size="1050x700">
                                 <img src=""
-                                     srcset=" 1x,  2x" alt="">
+                                     srcset="" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -652,7 +651,7 @@
                         <div class="item-folio__thumb">
                             <a href="" class="thumb-link" data-size="1050x700">
                                 <img src=""
-                                     srcset=" 1x,  2x" alt="">
+                                     srcset="" alt="">
                                 <span class="shadow-overlay"></span>
                             </a>
                         </div>
@@ -1114,6 +1113,7 @@
     var color2 = document.querySelector(".color2");
     var about = document.getElementById(".s-about");
     var works = document.getElementById(".s-works");
+    var body = document.getElementsByTagName("body")[0];
 
     function setGradient() {
         body.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
