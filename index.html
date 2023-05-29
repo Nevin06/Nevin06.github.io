@@ -31,7 +31,7 @@
 
 </head>
 
-<body id="top gradient">
+<body id="top">
 
     <!-- header
     ================================================== -->
@@ -1112,15 +1112,13 @@
      * ------------------------------------------------------ */
     var color1 = document.querySelector(".color1");
     var color2 = document.querySelector(".color2");
-    var body = document.getElementById("gradient");
+    var about = document.getElementById(".s-about");
+    var works = document.getElementById(".s-works");
 
     function setGradient() {
-        body.style.background = 
-        "linear-gradient(to right, " 
-        + color1.value 
-        + ", " 
-        + color2.value 
-        + ")";
+        body.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
+        about.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
+        works.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
     }
 
     color1.addEventListener("input", setGradient);

@@ -83,7 +83,7 @@ html, body {
 }
 
 body {
-    background: #0a0809;
+    background: linear-gradient(to right, white , white);
     font-family: "librebaskerville-regular", serif;
     font-size: 1.6rem;
     line-height: 1.875;
@@ -4210,10 +4210,6 @@ div.rotate_left {
   -ms-transform: rotate(-8deg); /* IE 9 */
   -webkit-transform: rotate(-8deg); /* Safari */
   transform: rotate(-8deg);
-}
-
-#gradient{
-    background: linear-gradient(to right, red , blue); /* Standard syntax */
 }
 
 .background-theme {
