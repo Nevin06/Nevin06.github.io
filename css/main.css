@@ -83,7 +83,7 @@ html, body {
 }
 
 body {
-    background: linear-gradient(to right, white , white);
+    background: #0a0809;
     font-family: "librebaskerville-regular", serif;
     font-size: 1.6rem;
     line-height: 1.875;
