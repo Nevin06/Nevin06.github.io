@@ -1113,10 +1113,8 @@
     var color2 = document.querySelector(".color2");
     var about = document.getElementById(".s-about");
     var works = document.getElementById(".s-works");
-    var body = document.getElementsByTagName("body")[0];
 
     function setGradient() {
-        body.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
         about.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
         works.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
     }
