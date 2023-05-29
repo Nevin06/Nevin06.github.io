@@ -4213,11 +4213,10 @@ div.rotate_left {
 }
 
 #gradient{
-    background: linear-gradient(to right, red , yellow); /* Standard syntax */
+    background: linear-gradient(to right, red , blue); /* Standard syntax */
 }
 
 .background-theme {
-    color: rgba(0,0,0,1);
     text-align: center;
     text-transform: uppercase;
     width: 100%;

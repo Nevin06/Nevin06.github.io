@@ -408,39 +408,6 @@
         });
     };
 
-    /* Redirect to Linkedin messenger
-     * ------------------------------------------------------ */
-    var hireMeNow = function openLinkedInMessaging(event) {
-          event.preventDefault(); // Prevent the link from opening in the browser
-
-          // Replace "INSERT_LINKEDIN_USER_ID_HERE" with the user ID of the LinkedIn profile you want to message
-          const linkedinUserID = "thomas-nevin-k";
-
-          // Construct the URL for the LinkedIn Messaging API
-          const linkedinMessagingURL = `https://www.linkedin.com/messaging/compose?recipient=${linkedinUserID}`;
-
-          // Open the URL in a new window
-          window.open(linkedinMessagingURL, "_blank");
-        }
-
-    /* Gradient Background Generator
-     * ------------------------------------------------------ */
-    var color1 = document.querySelector(".color1");
-    var color2 = document.querySelector(".color2");
-    var body = document.getElementById("gradient");
-
-    function setGradient() {
-        body.style.background = 
-        "linear-gradient(to right, " 
-        + color1.value 
-        + ", " 
-        + color2.value 
-        + ")";
-    }
-
-    color1.addEventListener("input", setGradient);
-    color2.addEventListener("input", setGradient);
-
    /* Initialize
     * ------------------------------------------------------ */
     (function ssInit() {
@@ -459,7 +426,6 @@
         ssAlertBoxes();
         // ssContactForm();
         ssBackToTop();
-        hireMeNow();
 
     })();
 

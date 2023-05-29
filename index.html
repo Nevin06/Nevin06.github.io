@@ -134,7 +134,7 @@
             <div class="col-full text-center">
             	<h1 class="background-theme">Change Background Theme</h1>
             	<input class="color1" type="color" name="color1" value="#ff0000">
-				<input class="color2" type="color" name="color2" value="#ffff00">
+				<input class="color2" type="color" name="color2" value="#0000ff">
                 <h3>About</h3>
                 <h1>More About Me</h1>
                 <ul class="lead">
@@ -1092,6 +1092,40 @@
     <script src="/js/jquery-3.2.1.min.js"></script>
     <script src="/js/plugins.js"></script>
     <script src="/js/main.js"></script>
+    <script type="text/javascript">
+    /* Redirect to Linkedin messenger
+     * ------------------------------------------------------ */
+    function openLinkedInMessaging(event) {
+          event.preventDefault(); // Prevent the link from opening in the browser
+
+          // Replace "INSERT_LINKEDIN_USER_ID_HERE" with the user ID of the LinkedIn profile you want to message
+          const linkedinUserID = "thomas-nevin-k";
+
+          // Construct the URL for the LinkedIn Messaging API
+          const linkedinMessagingURL = `https://www.linkedin.com/messaging/compose?recipient=${linkedinUserID}`;
+
+          // Open the URL in a new window
+          window.open(linkedinMessagingURL, "_blank");
+        }
+
+    /* Gradient Background Generator
+     * ------------------------------------------------------ */
+    var color1 = document.querySelector(".color1");
+    var color2 = document.querySelector(".color2");
+    var body = document.getElementById("gradient");
+
+    function setGradient() {
+        body.style.background = 
+        "linear-gradient(to right, " 
+        + color1.value 
+        + ", " 
+        + color2.value 
+        + ")";
+    }
+
+    color1.addEventListener("input", setGradient);
+    color2.addEventListener("input", setGradient);
+    </script>
 </body>
 
 </html>
