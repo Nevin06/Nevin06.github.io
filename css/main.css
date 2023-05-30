@@ -87,7 +87,6 @@ body {
     font-family: "librebaskerville-regular", serif;
     font-size: 1.6rem;
     line-height: 1.875;
-    color: #FFFFFF;
     margin: 0;
     padding: 0;
 }
@@ -1650,6 +1649,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: inline-block;
     padding-left: 0;
     margin-right: 2rem;
+    color: #ffffff;
 }
 
 .header-nav li a {
