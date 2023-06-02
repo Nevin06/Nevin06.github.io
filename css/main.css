@@ -2624,7 +2624,7 @@ html.no-csstransitions .home-content__main {
     background-position: center, center;*/
     padding-top: 9.6rem;
     padding-bottom: 10.2rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
     position: relative;
 }
 
@@ -2789,7 +2789,7 @@ html.no-csstransitions .home-content__main {
     display: block;
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.3rem;
-    color: rgba(95, 95, 95, 0.7);
+    color: rgba(255, 255, 255, 1);
     text-transform: none;
     letter-spacing: 0;
 }
@@ -2890,7 +2890,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .cta__content h2 a {
-    color: #0D0A0B;
+    color: #fff;
 }
 
 .cta__content span {
@@ -2934,7 +2934,7 @@ html.no-csstransitions .home-content__main {
     font-family: "librebaskerville-bold", serif;
     font-size: 7.2rem;
     line-height: 1;
-    color: #0D0A0B;
+    color: #fff;
     padding-bottom: 1.5rem;
     position: relative;
     overflow: hidden;
@@ -2957,7 +2957,7 @@ html.no-csstransitions .home-content__main {
 .stats h4 {
     font-family: "montserrat-semibold", sans-serif;
     margin-top: 1.8rem;
-    color: rgba(0, 0, 0, 0.4);
+    color: rgba(255, 255, 255, 1);
     font-size: 1.8rem;
     position: relative;
 }
@@ -3049,7 +3049,7 @@ html.no-csstransitions .home-content__main {
     background-position: center, center;*/
     padding-top: 13.2rem;
     padding-bottom: 12rem;
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
     position: relative;
     background-size: cover;
 }
@@ -3069,7 +3069,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .s-contact .section-intro p {
-    color: rgba(255, 255, 255, 0.5);
+    color: rgba(255, 255, 255, 1);
 }
 
 .s-contact .section-intro.has-bottom-sep::after {
@@ -4243,7 +4243,7 @@ body {
       z-index: 0;
 }
 
-.btnn {
+/*.btnn {
       position: fixed;
       bottom: 5%;
       right: 0px;
@@ -4264,4 +4264,4 @@ body {
 .btnn:hover {
       background: #ffffff;
       color: #1B1734;
-  }
+  }*/

@@ -48,14 +48,11 @@
                 <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>
                 <!-- <li><a class="smoothscroll"  href="#blog" title="blog">Blog</a></li> -->
                 <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
-                <li>
+                <!-- <li>
                     Change Background
                     <input class="color1" type="color" name="color1" value="#ff0000">
                     <input class="color2" type="color" name="color2" value="#0000ff">
-                </li>
-                <li>
-                    <button class="btnn" id="fullscr">Go Fullscreen</button>
-                </li>
+                </li> -->
             </ul>
         </nav>
 
@@ -418,6 +415,10 @@
                     </a>
                     <a href="#about" class="smoothscroll btn btn--stroke">
                         More About Me
+                    </a>
+                    <a id="fullscr" class="smoothscroll btn btn--stroke">
+                        <!-- <button class="btnn" id="fullscr">Go Fullscreen</button> -->
+                        Go Fullscreen
                     </a>
                 </div>
 
@@ -1446,22 +1447,22 @@
 
     /* Gradient Background Generator
      * ------------------------------------------------------ */
-    var color1 = document.querySelector(".color1");
-    var color2 = document.querySelector(".color2");
-    var about = document.querySelector(".s-about");
-    var works = document.querySelector(".s-works");
-    var subscribe = document.querySelector(".s-cta");
-    var stats = document.querySelector(".s-stats");
+    // var color1 = document.querySelector(".color1");
+    // var color2 = document.querySelector(".color2");
+    // var about = document.querySelector(".s-about");
+    // var works = document.querySelector(".s-works");
+    // var subscribe = document.querySelector(".s-cta");
+    // var stats = document.querySelector(".s-stats");
 
-    function setGradient() {
-        about.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
-        works.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
-        subscribe.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
-        stats.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
-    }
+    // function setGradient() {
+    //     about.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
+    //     works.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
+    //     subscribe.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
+    //     stats.style.background = "linear-gradient(to right, " + color1.value + ", " + color2.value + ")";
+    // }
 
-    color1.addEventListener("input", setGradient);
-    color2.addEventListener("input", setGradient);
+    // color1.addEventListener("input", setGradient);
+    // color2.addEventListener("input", setGradient);
     </script>
 </body>
 
