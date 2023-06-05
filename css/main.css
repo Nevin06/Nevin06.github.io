@@ -1,7 +1,7 @@
 /* =================================================================== 
  *
- *  Portfolio Page v1.0 Main Stylesheet
- *  15-05-2023
+ *  Portfolio Page v1.1 Main Stylesheet
+ *  05-06-2023
  *  ------------------------------------------------------------------
  *
  *  TOC:
@@ -86,7 +86,6 @@ html, body {
 }
 
 body {
-/*    background: #0a0809;*/
     font-family: "librebaskerville-regular", serif;
     font-size: 1.6rem;
     line-height: 1.875;
@@ -100,7 +99,7 @@ body {
  * ------------------------------------------------------------------- */
 
 a {
-    color: #862121;
+    color: #00cc00;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -2202,7 +2201,6 @@ html.no-csstransitions .home-content__main {
 .s-about {
     padding-top: 15rem;
     padding-bottom: 9rem;
-/*    background-color: #FFFFFF;*/
     position: relative;
 }
 
@@ -2358,7 +2356,6 @@ html.no-csstransitions .home-content__main {
 .s-works {
     padding-top: 15rem;
     padding-bottom: 15.6rem;
-/*    background-color: #f1f1f1;*/
     position: relative;
 }
 
@@ -2618,13 +2615,9 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-testimonials {
-/*    background-color: #0D0A0B;
-    background-image: url("../images/testimonial-bg.jpg");*/
-/*    background-repeat: no-repeat;
-    background-position: center, center;*/
     padding-top: 9.6rem;
     padding-bottom: 10.2rem;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0.6);
     position: relative;
 }
 
@@ -2635,7 +2628,6 @@ html.no-csstransitions .home-content__main {
     width: 100%;
     height: 100%;
     opacity: .85;
-/*    background-color: #0D0A0B;*/
 }
 
 .testimonials-header {
@@ -2782,14 +2774,14 @@ html.no-csstransitions .home-content__main {
 
 .testimonials__author {
     margin-top: 0rem;
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .testimonials__author span {
     display: block;
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.3rem;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0.6);
     text-transform: none;
     letter-spacing: 0;
 }
@@ -2879,13 +2871,12 @@ html.no-csstransitions .home-content__main {
     margin-top: -9rem;
     padding-top: 0;
     padding-bottom: 9rem;
-/*    background-color: #FFFFFF;*/
     position: relative;
     z-index: 1;
 }
 
 .cta__content {
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
     text-align: center;
 }
 
@@ -2934,7 +2925,7 @@ html.no-csstransitions .home-content__main {
     font-family: "librebaskerville-bold", serif;
     font-size: 7.2rem;
     line-height: 1;
-    color: #fff;
+    color: rgba(255, 255, 255, 0.6);
     padding-bottom: 1.5rem;
     position: relative;
     overflow: hidden;
@@ -2947,7 +2938,7 @@ html.no-csstransitions .home-content__main {
     display: block;
     height: 1px;
     width: 100px;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 0, 0, 1);
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -2957,7 +2948,7 @@ html.no-csstransitions .home-content__main {
 .stats h4 {
     font-family: "montserrat-semibold", sans-serif;
     margin-top: 1.8rem;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0.6);
     font-size: 1.8rem;
     position: relative;
 }
@@ -2989,7 +2980,7 @@ html.no-csstransitions .home-content__main {
 }
 
 .stats__col--highlight h4 {
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 1);
 }
 
 
@@ -3043,13 +3034,9 @@ html.no-csstransitions .home-content__main {
  * ------------------------------------------------------------------- */
 
 .s-contact {
-/*    background-color: #151515;
-    background-image: url("../images/contact-3-bg.jpg");
-    background-repeat: no-repeat;
-    background-position: center, center;*/
     padding-top: 13.2rem;
     padding-bottom: 12rem;
-    color: rgba(255, 255, 255, 1);
+    color: rgba(255, 255, 255, 0.6);
     position: relative;
     background-size: cover;
 }
@@ -3061,7 +3048,6 @@ html.no-csstransitions .home-content__main {
     width: 100%;
     height: 100%;
     opacity: .75;
-/*    background-color: #070606;*/
 }
 
 .s-contact .section-intro h1 {
@@ -3310,24 +3296,16 @@ footer {
     font-size: 14px;
     padding: 6.6rem 0 4.2rem;
     text-align: center;
-    color: rgba(255, 255, 255, 0.2);
+    color: rgba(255, 255, 255, 0.6);
+    position: relative;
 }
 
 footer a, footer a:visited {
-    color: #862121;
+    color: #00cc00;
 }
 
 footer a:hover, footer a:focus {
     color: #FFFFFF;
-}
-
-.footer-logo {
-    display: inline-block;
-}
-
-.footer-site-logo {
-    display: block;
-    width: 130px;
 }
 
 .footer-social {
@@ -4243,25 +4221,6 @@ body {
       z-index: 0;
 }
 
-/*.btnn {
-      position: fixed;
-      bottom: 5%;
-      right: 0px;
-      transform: translateX(-50%);
-      border: 1px solid #fff;
-      border-radius: 5px;
-      font-size: 0.9rem;
-      padding: 0.5rem 0.7em;
-      background-color: transparent;
-      color: #ffffff;
-      font-family: Verdana, Geneva, Tahoma, sans-serif;
-      -webkit-font-smoothing: antialiased;
-      cursor: pointer;
-      transition: all .3s;
-      z-index: 11;
+.s-cta .lead {
+    color: rgba(255, 255, 255, 0.6);
 }
-
-.btnn:hover {
-      background: #ffffff;
-      color: #1B1734;
-  }*/
